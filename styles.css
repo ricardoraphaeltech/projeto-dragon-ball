@@ -157,6 +157,26 @@ footer .copyright {
     }
 }
 
+@media (max-width: 850px) and (orientation: landscape){
+    .personagens .personagem .conteudo {
+        top: -40px;
+    }
+
+    .personagens .personagem .conteudo .nome-personagem{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .botoes .botao {
+        width: 45px;
+        height: 45px;
+    }
+
+    .botoes .botao img {
+        max-width: 45px;
+    }
+}
+
 @media (max-width: 768px){
     .personagens::after {
         background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0.00) 70%) no-repeat;
